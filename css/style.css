@@ -168,8 +168,8 @@ section{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.75;
-    filter: grayscale(1);
+    /* opacity: 0.75;
+    filter: grayscale(1); */
 }
 
 
@@ -327,6 +327,21 @@ section{
     background-size: cover; 
     background-attachment: fixed;
   */
+    background-image: url(../img/Framefondo.svg);
+    background-repeat: no-repeat;
+    background-position:center bottom;
+}
+#locales{
 
+}
+
+#locales ul{
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: none;
+    list-style-image:url(../img/tarea-completada.png);
+    line-height:1;
+    columns: 3;
     
+
 }
